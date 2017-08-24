@@ -4,7 +4,7 @@
   font-family: "Proxima Nova Bold";
   src: url("font/ProximaNova/ProximaNova-Bold.otf");
 }
-  
+
 
   @font-face {
   font-family: "Proxima Nova Reg";
@@ -22,17 +22,15 @@ body{
     text-align: center;
     font-size: 24px;
     font-weight: 600;
-    letter-spacing: 1.5px;
     color: #0AB89B;
     margin: 70px auto;
     padding: 5px;
-    width: 500px;
     border-radius: 5px;
     border-width: 0px;
     border-style: solid;
 }
-input, textarea, select, a { 
-    outline: none; 
+input, textarea, select, a {
+    outline: none;
     font-family: "Proxima Nova Reg";
 }
 
@@ -52,7 +50,7 @@ select.custom-dropdown {
     cursor: pointer;
     background: white;
     /*background: white url(down.png) no-repeat right center;*/
-    background-size: 40px 37px; /*TO ACCOUNT FOR @2X IMAGE FOR RETINA*/ 
+    background-size: 40px 37px; /*TO ACCOUNT FOR @2X IMAGE FOR RETINA*/
 }
 .energized {
     display: inline;
@@ -85,6 +83,16 @@ select.custom-dropdown {
 	width: 300px;
 	height: auto;
 	padding: 10px;
+}
+
+.tiers {
+	width: 700px;
+	height: auto;
+	padding: 10px;
+}
+
+#sale {
+  color: red;
 }
 
 #subtitle{
